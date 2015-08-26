@@ -1,0 +1,6 @@
+# ignore all files in the z_old/ directory
+z_old/
+
+# ignore Sublime project & workspace files
+*.sublime-project
+*.sublime-workspace

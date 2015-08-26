@@ -1,0 +1,53 @@
+/*BEGIN override browser defaults*/
+html {
+    font-size: 10px;
+}
+body {
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+a, a:hover, a:visited, a:active {
+    text-decoration: none;
+}
+/*END override browser defaults*/
+
+html {
+	font-family: Verdana, Arial, sans-serif;
+}
+
+body {
+	padding: 20px 100px;
+}
+
+a {color: blue;}
+a:hover {text-decoration: underline;}
+
+#summer-movies {
+	font-size: 1.4rem;
+}
+
+#summer-movies tr.hide {
+	display: none;
+}
+
+#summer-movies th,
+#summer-movies td {
+	padding: 1em;
+	text-align: left;
+	vertical-align: top;
+}
+
+#summer-movies th{
+	white-space: nowrap;
+	background-color: #999;
+	color: #fff;
+	font-weight: normal;
+}
+
+#summer-movies td {
+	border-bottom: 1px solid black;
+}
+
