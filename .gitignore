@@ -4,3 +4,6 @@ z_old/
 # ignore Sublime project & workspace files
 *.sublime-project
 *.sublime-workspace
+
+# ignore DS_Store file
+*.DS_Store
