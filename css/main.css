@@ -1,78 +1,76 @@
 /*BEGIN override browser defaults*/
 html {
-    font-size: 10px;
+  font-size: 10px;
 }
 body {
-    margin: 0;
+  margin: 0;
 }
 h1, h2, h3, h4, h5, h6, p, a, ul, ol, li {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 a, a:hover, a:visited, a:active {
-    text-decoration: none;
+  text-decoration: none;
 }
 /*END override browser defaults*/
 
 html {
-	font-family: Verdana, Arial, sans-serif;
+  font-family: Verdana, Arial, sans-serif;
 }
 
 body {
-	padding: 20px 100px;
+  padding: 20px 100px;
 }
 
 a {color: blue;}
 a:hover {text-decoration: underline;}
 
 #filter-set.hidden {
-	visibility: hidden;
+  visibility: hidden;
 }
 
 #filter-set li {
-	display: inline-block;
-	font-size: 1.2rem;
-	padding: 1em;
-	margin: 0.25em 0.5em;
-	background-color: #999;
-	color: #000;
-	opacity: 0.3;
-
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 1em;
+  margin: 0.25em 0.5em;
+  background-color: #999;
+  color: #000;
+  opacity: 0.3;
 }
 
 #filter-set li.selected {
-	background-color: #333;
-	color: #fff;
-	opacity: 1;
+  background-color: #333;
+  color: #fff;
+  opacity: 1;
 }
 
 #filter-set li:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 #summer-movies {
-	font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 #summer-movies tr.hide-row {
-	display: none;
+  display: none;
 }
 
 #summer-movies th,
 #summer-movies td {
-	padding: 1em;
-	text-align: left;
-	vertical-align: top;
+  padding: 1em;
+  text-align: left;
+  vertical-align: top;
 }
 
 #summer-movies th{
-	white-space: nowrap;
-	background-color: #999;
-	color: #fff;
-	font-weight: normal;
+  white-space: nowrap;
+  background-color: #999;
+  color: #fff;
+  font-weight: normal;
 }
 
 #summer-movies td {
-	border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
-
